@@ -1,0 +1,30 @@
+input_img_dim:
+  [256,256]
+batch_size:
+  100
+momentum:
+  0.00001
+epochs:
+  300
+learning_rate:
+  0.00001
+season:
+  "Winter"
+date:
+  "23-03-2021"
+hour:
+  "15:58"
+year:
+  "2021"
+run_name:
+  "friction1"
+project_name:
+  "FriEst"
+device:
+  "gpu"
+device_name:
+  "cuda:1"
+continue_tra:
+  False
+wandb_id:
+  "gimn84cg"
