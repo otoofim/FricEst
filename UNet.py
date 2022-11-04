@@ -88,7 +88,7 @@ class UNet(nn.Module):
             out = torch.cat((encoderOuts["out1"], out), 1)
 
             out = self.UpConvBlock4(out)
-            self.affine(out)
+            out = self.affine(out)
 
             return out
     

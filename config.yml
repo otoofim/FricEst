@@ -20,11 +20,13 @@ run_name:
   "friction1"
 project_name:
   "FriEst"
+entity:
+  "loughborough_project"
 device:
   "gpu"
 device_name:
   "cuda:1"
 continue_tra:
-  False
+  True
 wandb_id:
-  "gimn84cg"
+  "o0d71s57"
